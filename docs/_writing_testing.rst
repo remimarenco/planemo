@@ -27,7 +27,7 @@ This will create a folder with a ``bwa-mem.xml`` as follows:
    :emphasize-lines: 8,91-93
 
 .. note:: Highlighted are two relatively recently added enhancements to Galaxy's
-    tool XML syntax. The ``check_errors="exit"`` code on the ``command`` block
+    tool XML syntax. The ``detect_errors="exit"`` code on the ``command`` block
     will cause Galaxy to use the actual process exit code to determine failure -
     in most cases this is superior to the default Galaxy behavior of checking 
     for the presence of standard error output.
